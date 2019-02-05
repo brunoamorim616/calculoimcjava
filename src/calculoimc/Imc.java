@@ -11,7 +11,7 @@ public class Imc {
         return resultado;
     }
     /**
-     * Retorna a situação do IMC 
+     * Retorna a situação do IMC
      */
     public String situacao(String situation){
         if(this.resultado >= 18.5 && this.resultado <= 24.99){
