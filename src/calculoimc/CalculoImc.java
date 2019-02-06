@@ -12,7 +12,7 @@ public class CalculoImc {
         
         //Define atributos da TELA
         janela.setDefaultCloseOperation(janela.EXIT_ON_CLOSE);
-        janela.setSize(430, 398);
+        janela.setSize(399, 413);
         janela.add(painel);
         janela.setVisible(true);
     }

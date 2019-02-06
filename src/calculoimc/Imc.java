@@ -15,15 +15,15 @@ public class Imc {
      */
     public String situacao(String situation){
         if(this.resultado >= 18.5 && this.resultado <= 24.99){
-            situation = "normal";
+            situation = "Normal";
         }else if(this.resultado >= 25 && this.resultado <= 29.99){
-            situation = "GORDO(A)";
+            situation = "Acima do peso";
         }else if(this.resultado >= 30 && this.resultado <= 34.99){
-            situation = "GORDO(A) PRA CARALHO";
+            situation = "OBESIDADE 1";
         }else if(this.resultado >= 35 && this.resultado <= 39.99){
-            situation = "MONTANHA DE MERDA / ISMAR";
-        }else if(this.resultado > 40){
-            situation = "O LIXO MAIS DESUMANO DO MUNDO";
+            situation = "OBESIDADE 2";
+        }else if(this.resultado >= 40){
+            situation = "OBESIDADE 3";
         }      
             return situation;
     }

@@ -1,0 +1,5 @@
+Nome:  asdqwr
+Altura: 1,12
+Peso: 40
+Valor do IMC: 31,89
+Situação do IMC: GORDO(A) PRA CARALHO
